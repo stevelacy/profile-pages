@@ -36,7 +36,7 @@ gulp.task "copy", ->
 
 
 gulp.task "server", (done) ->
-  port = 5000
+  port = 3000
   server = http.createServer es root: "./"
   server.listen port, done
 
